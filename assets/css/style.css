@@ -1,0 +1,167 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row-space-around{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav {
+   
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #CFB997;
+}
+
+.nav-title{
+    background: #d72631;
+    height: 70px;
+    width: 300px;
+    border: solid 2px #2B1D14;
+}
+
+.nav-title > h1{
+    font-size: xx-large;
+    padding-bottom: 10px;
+}
+
+.ul-nav-row{
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.li-nav-row{
+    margin-right: 10px;
+    border-bottom: 2px solid grey;
+}
+
+.header{
+    background: #a2d5c6;
+    height: 105px;
+    position: relative;
+    border-bottom:solid 5px #2B1D14;
+}
+
+.header-subtitle{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.paragraph-padding {
+    padding: 50px 80px 10px 80px;
+}
+
+.section {
+    padding: 5px 80px 10px 80px;
+}
+
+.line{
+    border-left: 6px solid #5c3c92;
+    height: 100px;
+    margin: 0 30px 0 30px;
+}
+
+.content-text{
+    margin-top: 20px;
+}
+
+.main-box{
+    /* border: 2px solid black; */
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+.item1{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color:white;
+    font-weight:bolder;
+}
+
+.box{
+    border: 2px solid black;
+   height: 80px;
+   width: 567px;
+}
+
+.box > img{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    
+}
+
+.item2 {
+    position: absolute;
+    top: 53%;
+    left: 16px;
+    color:white;
+    font-weight:bolder;
+  }
+
+.item3 {
+    position: absolute;
+    top: 53%;
+    right: 16px;
+    color:white;
+    font-weight:bolder;
+}  
+
+.item4 {
+    position: absolute;
+    bottom: 40px;
+    left: 16px;
+    color:white;
+    font-weight:bolder;
+}  
+
+.item5 {
+    position: absolute;
+    bottom: 40px;
+    right: 16px;
+    color:white;
+    font-weight:bolder;
+}  
+
+.box1{
+    width: 100%;
+    height: 150px;
+    border: 2px solid black;
+}
+
+.box1 > img{
+    width: 100%;
+    height: 150px;
+    
+}
+
+.footer > a{
+    
+    font-size:3vh;
+    padding-right: 70px;
+    
+}
+
+.footer{
+    width: 1150.64px;    
+    padding-left: 25px;
+    padding-top: 40px;
+    
+}
+
+.line-footer{
+    border-left: 6px solid #5c3c92;
+    height: 100px;
+    margin: 0 0px 0 0px;
+    
+}
+
+.contact {
+    padding: 10px 30px 80px 30px;
+}

@@ -12,14 +12,12 @@
         <div class="nav-title">
             <h1>Eileen Mitchell</h1>
         </div>
-        <div>
-            <ul class="ul-nav-row row">
-                <li class="li-nav-row">About me</li>
-                <li class="li-nav-row">work</li>
-                <li class="li-nav-row">Contact Me</li>
-                <li class="li-nav-row">Resume</li>
-            </ul>
-        </div>
+        <nav class="ul-nav-row row">
+                <a href ="#About-Me">About me</a>
+                <a href ="#Work">Work</a>
+                <a href ="#Contact-Me">Contact Me</a>
+                <a href ="#Resume">Resume</a>
+        </nav>
     </nav>
     <header class="header">
         <div class="header-subtitle">
@@ -28,12 +26,15 @@
     </header>
     <main>
         <!-- about me -->
-        <div class="paragraph-padding row">
+        <div class="paragraph-padding row" id=About-Me>
             <div>
                 <h1>About Me</h1>
             </div>
-            <div class="line"></div>
+            <div class="line1"></div>
             <div>
+                <div class="photo-dis-me">
+                    <img src="./assets/images/me.jpeg" alt="me">
+                </div>
                 <div>
                     <strong>    My name is Eileen Mitchell. I am from Visalia, CA and graduated with a BS in City and Regional Planning, Minor in Political Science and Certificate in Geographic Information Systems (GIS) from Fresno State University.</strong>
                 </div>
@@ -44,41 +45,52 @@
         </div>
 
         <!-- work -->
-        <div class="section row-space-around">
+        <div class="section row-space-around" id="Work">
             <div>
-                <h1>Work </h1>
+                <h1 id="work">Work </h1>
             </div>
-            <div class="line"></div>
+            <div class="line2"></div>
             <div class="main-box">   
                         <div class="box1">    
-                            <img src="./assets/images/code1.webp" alt="code">
-                            <div class="item1">Portfolio Item 1</div>
+                            <a href="https://eileenhlmitchell19.github.io/Scrantinocity/">
+                                <img src="./assets/images/code1.webp" alt="code" width="1136" height="135">
+                            </a>
+                            <div class="item1">Scrantonicity</div>
                         </div>
                 <div class="row">
-                        <div class="box">
-                            <img src="./assets/images/rain.jpg" alt="rain drops">
-                            <div class="item2">Portfolio Item 2</div>
+                        <div class="box2">
+                            <a href="https://eileenhlmitchell19.github.io/prework-about-me/" alt="rain drops">
+                                <img src="./assets/images/rain.jpg" alt="laptop" width="560" height="70">
+                            </a>
+                            <div class="item2">Pre-Work Assignment</div>
                         </div>
-                        <div class="box">
-                            <img src="./assets/images/light.jpg" alt="light">
+                        <div class="box3">
+                            <a href="https://eileenhlmitchell19.github.io/prework-about-me/" alt="light">
+                                <img src="./assets/images/light.jpg" alt="light" width="560" height="70">
+                            </a>
                             <div class="item3">Portfolio Item 3</div>
                         </div>
                 </div>
-                <div class="row">
-                        <div class="box">
-                            <img src="./assets/images/laptop.jpg" alt="laptop">
-                            <div class="item4">Portfolio Item 4</div>
-                        </div>
-                        <div class="box">
-                            <img src="./assets/images/workspace.jpg" alt="workspace">
-                            <div class="item5">Portfolio Item 5</div>
-                        </div>
+                <div class="row1">
+                    <div class="box4">
+                        <a href="https://eileenhlmitchell19.github.io/prework-about-me/" alt="laptop">
+                            <img src="./assets/images/laptop.jpg" alt="laptop" width="560" height="70">
+                        </a>     
+                        <div class="item4">Portfolio Item 4</div>
+                    </div>
+                    <div class="box5">
+                             <a href="https://eileenhlmitchell19.github.io/prework-about-me/" alt="light">
+                                <img src="./assets/images/workspace.jpg" alt="workspace" width="560" height="70">
+                            </a>
+                        <div class="item5">Portfolio Item 5</div>
+                    </div>
+
                 </div>
             </div>
         </div>
         
         <!-- contact me -->
-        <footer class="contact row">
+        <footer class="contact row" id="Contact-Me">
             <div>
                 <h1>Contact Me</h1>
             </div>

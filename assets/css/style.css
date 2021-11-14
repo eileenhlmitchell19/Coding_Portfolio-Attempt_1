@@ -1,6 +1,13 @@
 
 /* NAV DATA */
 
+.row{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    left: 70;
+    
+}
 
 .nav {
    
@@ -106,22 +113,31 @@
     position: relative;
     height: 300px;
     width: 100%;
+    display:flex;
+    flex-wrap: wrap;
 }
 
 /*BOX 1*/
 .box1{
     width: 1136px;
-    height: 135px;
-    
+    height: 135px;   
     margin-left: 40px;
     padding: 3px;
-    border:solid 5px black;   
+    border:solid 5px black; 
+    display:flex;
+    flex-wrap: wrap;  
+}
+
+#box1{
+    width: 1136px;
+    height: 135px;   
+    display:flex;
+    flex-wrap: wrap;  
 }
 
 .box1 > img{
-    width: 100%;
-    height: 135px;
-    border: 5px solid black;
+    display:flex;
+    flex-wrap: wrap;
 }
 
 .item1{
@@ -132,11 +148,13 @@
     font-weight:bolder;
 }
 /* BOXES 2 & 3 */
-.row{
+.row1{
     display: flex;
     flex-direction: row;
     position:relative;
     left: 70;
+    display:flex;
+    flex-wrap: wrap;  
 }
 
 .box2{
@@ -145,21 +163,24 @@
     margin-left: 40px;
     padding: 3px;
     border:solid 5px black;
+    display:flex;
+    flex-wrap: wrap;
  }
  
  .box2 > img{
-     width: 100%;
-     height: 100%;
-     display: inline-block;
      border: 5px solid black;
+     display:flex;
+     flex-wrap: wrap;
  }
 
  .item2 {
     position: absolute;
-    top: 55%;
-    left: 70px;
+    top: 22%;
+    left: 65px;
     color:white;
     font-weight:bolder;
+    display:flex;
+    flex-wrap: wrap;
   }
  
  .box3{
@@ -167,28 +188,34 @@
      width: 560px;
      padding: 3px;
      border:solid 5px black;
+     display:flex;
+     flex-wrap: wrap;
   }
   
   .box3 > img{
       width: 100%;
       height: 100%;
-      display: inline-block;
       border: 5px solid black;
+      display:flex;
+      flex-wrap: wrap;
   }
 
   .item3 {
     position: absolute;
-    top: 55%;
-    right: 16px;
+    top: 22%;
+    right: 439px;
     color:white;
     font-weight:bolder;
+    display:flex;
+    flex-wrap: wrap;
 } 
 /* BOXES 4 & 5 */
-.row1{
+.row2{
     display: flex;
     flex-direction: row;
     position:relative;
     left: 40px;
+    flex-wrap: wrap;
 }
 
 .box4{
@@ -196,22 +223,25 @@
     width: 560px;
     padding: 3px;
     border:solid 5px black;
+    display:flex;
+    flex-wrap: wrap;
  }
  
  .box4 > img{
-     width: 100%;
-     height: 100%;
-     display: inline-block;
      border: 5px solid black;
      margin-left: 40px;
+     display:flex;
+     flex-wrap: wrap;
  }
 
  .item4 {
     position: absolute;
-    bottom: 30px;
-    left: 70px;
+    bottom: 48px;
+    left: 26px;
     color:white;
     font-weight:bolder;
+    display:flex;
+    flex-wrap: wrap;
 } 
 
 .box5{
@@ -219,6 +249,8 @@
     width: 560px;
     padding: 3px;
     border:solid 5px black;
+    display:flex;
+    flex-wrap: wrap;
  }
  
  .box5 > img{
@@ -227,14 +259,18 @@
      display: inline-block;
      border: 5px solid black;
      margin-left: 40px;
+     display:flex;
+     flex-wrap: wrap;
  }
 
  .item5 {
     position: absolute;
-    bottom: 30px;
-    right: 16px;
+    bottom: 48px;
+    right: 439px;
     color:white;
     font-weight:bolder;
+    display:flex;
+    flex-wrap: wrap;
 }  
 
 /* FOOTER DATA - CONTACT ME*/
@@ -274,27 +310,70 @@
 
   }
   
-  /* Cards are stacked on top of each other at 768px or smaller */
   @media screen and (max-width: 768px) {
-    .box1 {
-      width: 100%;
+    .box1{
+        width: 254px;
+        padding: 3px;
+        border:solid 5px black; 
+        display:flex;
+        flex-wrap: wrap;  
+    }
+    
+    img{
+        width: 100px;
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    #box1{
+        width: 1136px;
+        height: 135px;   
+        display:flex;
+        flex-wrap: wrap;  
+    }
+    
+    .item1{
+        position: absolute;
+        top: 20px;
+        left: 70px;
+        color:white;
+        font-weight:bolder;
     }
 
     .box2 {
-        width: 100%;
+        width: 254px;
+        padding: 3px;
+        border:solid 5px black; 
+        display:flex;
+        flex-wrap: wrap;  
       }
 
 
     .box3 {
-        width: 100%;
+        width: 254px;
+        padding: 3px;
+        border:solid 5px black; 
+        display:flex;
+        flex-wrap: wrap; 
+        position: absolute; 
+        top: 20px;
+        left: 70px;
       } 
 
       .box4 {
-        width: 100%;
+        width: 254px;
+        padding: 3px;
+        border:solid 5px black; 
+        display:flex;
+        flex-wrap: wrap;  
       }
 
       .box5 {
-        width: 100%;
+        width: 254px;
+        padding: 3px;
+        border:solid 5px black; 
+        display:flex;
+        flex-wrap: wrap;  
       }
   }
 

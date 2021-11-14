@@ -15,7 +15,7 @@ In order to scroll to work, just click on the item you are looking for on the to
 To view my work, click on the image tags which will take you directly to relevant websites. This will continue to be updated as more projects are created.
 
 Known Bugs
-Formatting is not uniform when the media screen size is altered. This is something I will need more help understanding on how to fix my particular code in connection with the media screen feature, as it did not seem to work when I gave it a go. Best format is in full screen mode.
+Formatting is not uniform when the media screen size is altered. This is something I will need more help understanding on how to fix my particular code in connection with the media screen feature, as it did not seem to work when I gave it a go. Best format is in full screen mode, however some screens make the left hand information tab (About me, Work, Contact Me) not align properly. More understanding of alternative coding options to gain uniform code would be required.
 
 ![Project connection](Screenshot1.jpg)
 ![Project connection](Screenshot2.jpg)
